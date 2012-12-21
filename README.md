@@ -32,6 +32,10 @@ Your Searchdaimon system may or may not have the following required perl modules
 
 If not, you may have to locate the rpm's for the modules and install them from the administration panel, or install from the root command line.
 
+Running
+-
+Create a new crawler, add username, password and URL to your mantis installation. That should do it. Note that the user has to have it's mantis language settings set to english. This is because mantis changes the csv-export headings depending on language used.
+
 Licensing
 -
 Licensed under GNU LGPL, see file LICENSE
