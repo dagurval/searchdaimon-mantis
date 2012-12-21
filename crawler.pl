@@ -1,4 +1,4 @@
-# Copyright (c) 2007, Dagur Valberg Johannsson
+# Copyright (c) 2012, Dagur Valberg Johannsson
 # All rights reserved.
 #
 # This program is free software: you can redistribute it and/or modify
@@ -83,7 +83,7 @@ sub crawl_update {
       acl_allow => 'Everyone',
       attributes => \%attributes
   );
-}
+  }
 }
 
 sub path_access { 1; }
