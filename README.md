@@ -25,6 +25,13 @@ and add the following lines:<br>
      [% k="assigned to"; PROCESS _attr_row a = attr.$k title="Assigned to" IF attr.$k %]
      [% PROCESS _attr_row a = attr.category title="Category" IF attr.category %]
 ````    
+
+Your Searchdaimon system may or may not have the following required perl modules installed
+* WWW::Mechanize;
+* Date::Parse
+
+If not, you may have to locate the rpm's for the modules and install them from the administration panel, or install from the root command line.
+
 Licensing
 -
 Licensed under GNU LGPL, see file LICENSE
